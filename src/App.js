@@ -13,9 +13,16 @@ class App extends Component {
         <AmplifySignOut />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
+        <p>Regulation Type
+      <select name="month" required>
+       
+        <option value="reg">Regulation</option>
+        <option value="dreg">Deteiled Regulation</option>
+        <option value="opstnd">Operational Standard</option>
+        <option value="opmnl">Operational Manual</option>
+        <option value="form">form</option>
+        </select></br>
+      </p>
           <a
             className="App-link"
             href="https://reactjs.org"
