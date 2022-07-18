@@ -14,7 +14,15 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         <p>Regulation Type
-
+             <Dropdown>
+  <Dropdown.Toggle>Open</Dropdown.Toggle>
+  <Dropdown.Menu>
+     <Dropdown.MenuItem> A </Dropdown.MenuItem/>
+        <Dropdown.MenuItem> B </Dropdown.MenuItem/>
+     <Dropdown.MenuItem> C </Dropdown.MenuItem/>
+     <Dropdown.MenuItem> D </Dropdown.MenuItem/>
+  <Dropdown.Menu/>
+</Dropdown>
       </p>
           <a
             className="App-link"
